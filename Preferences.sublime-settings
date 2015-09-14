@@ -1,0 +1,28 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
+	"draw_white_space": "all",
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"app/logs",
+				"app/cache",
+				"app/files",
+				"app/tmp",
+				"app/var",
+				"web/js",
+				"web/css"
+			],
+			"follow_symlinks": false
+		}
+	],
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	]
+}
+
