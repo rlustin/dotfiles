@@ -1,28 +1,25 @@
 {
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
+	"copy_with_empty_selection": true,
 	"draw_white_space": "all",
-	"folders":
-	[
-		{
-			"folder_exclude_patterns":
-			[
-				"app/logs",
-				"app/cache",
-				"app/files",
-				"app/tmp",
-				"app/var",
-				"web/js",
-				"web/css"
-			],
-			"follow_symlinks": false
-		}
-	],
-	"font_size": 11,
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Hack",
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Markdown",
 		"Vintage"
-	]
+	],
+	"index_files": true,
+	"rulers":
+	[
+		79
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~"
 }
-
