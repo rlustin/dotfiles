@@ -1,0 +1,30 @@
+[core]
+        editor = vim
+[user]
+        email = raphael@lustin.fr
+        name = Raphaël Lustin
+[push]
+        default = simple
+[pull]
+        rebase = true
+[rebase]
+        autostash = true
+        autosquash = true
+[color]
+        ui = true
+[alias]
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        continue = rebase --continue
+        cdiff = diff --cached
+        amend = commit --amend
+        co = checkout
+        rerebase = !git fetch upstream dev && git rebase upstream/dev
+        fpush = push -f
+        track = branch --set-upstream-to=upstream/dev
+        fpo = push -f origin
+        staged = diff --staged
+        pdiff = diff -w --color-words
+        pshow = show -w --color-words
+        pstaged = diff --staged -w --color-words
+        fixup = commit --fixup
+        trackm = branch --set-upstream-to=upstream/master
