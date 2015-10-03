@@ -25,7 +25,7 @@ COMPLETION_WAITING_DOTS="true"
 # Plugins
 plugins=(git)
 
-export PATH="$PATH:$HOME/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:$HOME/Documents/Dev/moz-git-tools"
+export PATH="$PATH:$HOME/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:$HOME/git/moz-git-tools:$HOME/git/tools"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -34,5 +34,8 @@ git-find() {
 }
 
 # Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/base16-eighties.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+#BASE16_SHELL="$HOME/.config/base16-shell/base16-eighties.dark.sh"
+#[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export CT_GIT_ROOT=$HOME/git
