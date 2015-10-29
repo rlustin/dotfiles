@@ -29,6 +29,8 @@ export PATH="$PATH:$HOME/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/
 
 source $ZSH/oh-my-zsh.sh
 
+alias git='nocorrect git'
+
 git-find() {
   git ls-files | grep $1
 }
