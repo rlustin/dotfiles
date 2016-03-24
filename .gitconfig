@@ -28,3 +28,4 @@
         pstaged = diff --staged -w --color-words
         fixup = commit --fixup
         trackm = branch --set-upstream-to=upstream/master
+        rbi = rebase -i
