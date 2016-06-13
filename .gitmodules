@@ -1,0 +1,60 @@
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/ctrlp.vim"]
+	path = .vim/bundle/ctrlp.vim
+	url = git@github.com:ctrlpvim/ctrlp.vim.git
+[submodule ".vim/bundle/vim-fugitive"]
+	path = .vim/bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule ".vim/bundle/onedark.vim"]
+	path = .vim/bundle/onedark.vim
+	url = git@github.com:joshdick/onedark.vim.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/delimitMate"]
+	path = .vim/bundle/delimitMate
+	url = git@github.com:Raimondi/delimitMate.git
+[submodule ".vim/bundle/colorizer"]
+	path = .vim/bundle/colorizer
+	url = git@github.com:vim-scripts/colorizer.git
+[submodule ".vim/bundle/tabular"]
+	path = .vim/bundle/tabular
+	url = git@github.com:godlygeek/tabular.git
+[submodule ".vim/bundle/vim-gitgutter"]
+	path = .vim/bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule ".vim/bundle/nerdcommenter"]
+	path = .vim/bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule ".vim/bundle/vim-rubocop"]
+	path = .vim/bundle/vim-rubocop
+	url = git@github.com:ngmy/vim-rubocop.git
+[submodule ".vim/bundle/vim-ruby"]
+	path = .vim/bundle/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby.git
+[submodule ".vim/bundle/gundo.vim"]
+	path = .vim/bundle/gundo.vim
+	url = git@github.com:sjl/gundo.vim.git
+[submodule ".vim/bundle/vim-rspec"]
+	path = .vim/bundle/vim-rspec
+	url = git@github.com:thoughtbot/vim-rspec.git
+[submodule ".vim/bundle/vim-dispatch"]
+	path = .vim/bundle/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
+[submodule ".vim/bundle/mediawiki.vim"]
+	path = .vim/bundle/mediawiki.vim
+	url = git@github.com:chikamichi/mediawiki.vim.git
+[submodule ".vim/bundle/vim-rails"]
+	path = .vim/bundle/vim-rails
+	url = git@github.com:tpope/vim-rails.git
+[submodule ".vim/bundle/vim-snipmate"]
+	path = .vim/bundle/vim-snipmate
+	url = git@github.com:garbas/vim-snipmate.git
+[submodule ".vim/bundle/vim-addon-mw-utils"]
+	path = .vim/bundle/vim-addon-mw-utils
+	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
+[submodule ".vim/bundle/tlib_vim"]
+	path = .vim/bundle/tlib_vim
+	url = git@github.com:tomtom/tlib_vim.git
