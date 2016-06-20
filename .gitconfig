@@ -17,6 +17,7 @@
         continue = rebase --continue
         cdiff = diff --cached
         amend = commit --amend
+        cancel = !git reset --soft HEAD~ && git reset HEAD .
         co = checkout
         rerebase = !git fetch upstream dev && git rebase upstream/dev
         fpush = push -f
