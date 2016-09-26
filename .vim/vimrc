@@ -27,8 +27,8 @@ set shiftwidth=2
 
 set clipboard=unnamedplus
 
-" Font in GUI mode : https://github.com/andreberg/Meslo-Font
-set guifont=Meslo\ LG\ S\ DZ\ for\ Powerline\ 9
+" Font in GUI mode: http://www.levien.com/type/myfonts/inconsolata.html
+set guifont=Inconsolata\ 13
 " remove the useless buttons from gvim
 set guioptions=nomenu
 " Remove menubar
