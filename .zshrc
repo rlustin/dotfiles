@@ -7,6 +7,9 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
 
+# Only show username@hostname prefix on a remote server
+[[ -n "$SSH_CLIENT" ]] || export DEFAULT_USER="rlustin"
+
 HISTFILE=$HOME/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
