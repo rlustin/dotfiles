@@ -30,3 +30,20 @@
         fixup = commit --fixup
         trackm = branch --set-upstream-to=upstream/master
         rbi = rebase -i
+        st = status -sb
+        ls-others = ls-files -o --exclude-standard
+        plog = log --oneline --decorate --graph --boundary
+        qf = log --format="%H" HEAD@{u}..
+        qu = log --oneline --decorate --boundary --graph HEAD@{u}...
+        quc = log --oneline --decorate --graph HEAD@{u}..
+        qus = log --oneline --decorate --graph --stat -M HEAD@{u}...
+        pq = log --oneline --decorate --graph -p -b HEAD@{u}...
+        pqr = log --oneline --decorate --reverse -p -b HEAD@{u}...
+        review = rebase --autosquash -i HEAD@{u}
+        rework = rebase --autosquash --autostash -i HEAD@{u}
+        fop = fetch -p origin
+        clog = log -g --grep-reflog="checkout:" --oneline
+        pdiff = diff -w --color-words
+        pshow = show --color-words
+[log]
+  follow = true
