@@ -1,49 +1,47 @@
 [core]
-        editor = vim
+  editor = vim
 [user]
-        email = raphael@lustin.fr
-        name = Raphaël Lustin
+  email = raphael@lustin.fr
+  name = Raphaël Lustin
 [push]
-        default = simple
+  default = simple
 [pull]
-        rebase = true
+  rebase = true
 [rebase]
-        autostash = true
-        autosquash = true
+  autostash = true
+  autosquash = true
 [color]
-        ui = true
-[alias]
-        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-        continue = rebase --continue
-        cdiff = diff --cached
-        amend = commit --amend
-        cancel = !git reset --soft HEAD~ && git reset HEAD .
-        co = checkout
-        rerebase = !git fetch upstream dev && git rebase upstream/dev
-        fpush = push -f
-        track = branch --set-upstream-to=upstream/dev
-        fpo = push -f origin
-        staged = diff --staged
-        pdiff = diff -w --color-words
-        pshow = show -w --color-words
-        pstaged = diff --staged -w --color-words
-        fixup = commit --fixup
-        trackm = branch --set-upstream-to=upstream/master
-        rbi = rebase -i
-        st = status -sb
-        ls-others = ls-files -o --exclude-standard
-        plog = log --oneline --decorate --graph --boundary
-        qf = log --format="%H" HEAD@{u}..
-        qu = log --oneline --decorate --boundary --graph HEAD@{u}...
-        quc = log --oneline --decorate --graph HEAD@{u}..
-        qus = log --oneline --decorate --graph --stat -M HEAD@{u}...
-        pq = log --oneline --decorate --graph -p -b HEAD@{u}...
-        pqr = log --oneline --decorate --reverse -p -b HEAD@{u}...
-        review = rebase --autosquash -i HEAD@{u}
-        rework = rebase --autosquash --autostash -i HEAD@{u}
-        fop = fetch -p origin
-        clog = log -g --grep-reflog="checkout:" --oneline
-        pdiff = diff -w --color-words
-        pshow = show --color-words
+  ui = true
 [log]
   follow = true
+[alias]
+  amend = commit --amend
+  cancel = !git reset --soft HEAD~ && git reset HEAD .
+  cdiff = diff --cached
+  clog = log -g --grep-reflog="checkout:" --oneline
+  co = checkout
+  continue = rebase --continue
+  fixup = commit --fixup
+  fop = fetch -p origin
+  fpo = push -f origin
+  fpush = push -f
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  ls-others = ls-files -o --exclude-standard
+  pdiff = diff -w --color-words
+  plog = log --oneline --decorate --graph --boundary
+  pq = log --oneline --decorate --graph -p -b HEAD@{u}...
+  pqr = log --oneline --decorate --reverse -p -b HEAD@{u}...
+  pshow = show -w --color-words
+  pstaged = diff --staged -w --color-words
+  qf = log --format="%H" HEAD@{u}..
+  qu = log --oneline --decorate --boundary --graph HEAD@{u}...
+  quc = log --oneline --decorate --graph HEAD@{u}..
+  qus = log --oneline --decorate --graph --stat -M HEAD@{u}...
+  rbi = rebase -i
+  rerebase = !git fetch upstream dev && git rebase upstream/dev
+  review = rebase --autosquash -i HEAD@{u}
+  rework = rebase --autosquash --autostash -i HEAD@{u}
+  st = status -sb
+  staged = diff --staged
+  track = branch --set-upstream-to=upstream/dev
+  trackm = branch --set-upstream-to=upstream/master
