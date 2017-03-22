@@ -1,5 +1,6 @@
 [core]
   editor = vim
+  excludesfile = ~/.global_gitignore
 [user]
   email = raphael@lustin.fr
   name = Raphaël Lustin
