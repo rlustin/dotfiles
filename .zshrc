@@ -30,6 +30,8 @@ plugins=(git)
 
 export PATH="$PATH:$HOME/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:$HOME/git/moz-git-tools:$HOME/git/tools"
 
+export PATH="$PATH:$HOME/.cargo/bin"
+
 source $ZSH/oh-my-zsh.sh
 
 alias git='nocorrect git'
