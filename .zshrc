@@ -19,8 +19,8 @@ WORDCHARS="${WORDCHARS:s#.#}"
 # never ever beep ever
 setopt NO_BEEP
 
-# Enable command auto-correction.
-ENABLE_CORRECTION="true"
+# Disable command auto-correction.
+ENABLE_CORRECTION="false"
 
 # Display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
