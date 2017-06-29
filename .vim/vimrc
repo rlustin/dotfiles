@@ -40,6 +40,8 @@ set guioptions-=b
 " Copy visual area to paste buffer
 set go+=a
 
+set backspace=indent,eol,start
+
 " Add · for trailing spaces.
 " Use the same symbols as TextMate for tabstops and EOLs
 set listchars=tab:▸\ ,trail:· list
