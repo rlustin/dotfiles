@@ -46,3 +46,7 @@
   staged = diff --staged
   track = branch --set-upstream-to=upstream/dev
   trackm = branch --set-upstream-to=upstream/master
+
+# Works with git 2.13
+[includeIf "gitdir:~/git/tbk/"]
+  path = .gitconfig-tbk
