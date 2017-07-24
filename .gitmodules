@@ -12,7 +12,7 @@
 	url = git@github.com:joshdick/onedark.vim.git
 [submodule ".vim/bundle/vim-colors-solarized"]
 	path = .vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = git@github.com:altercation/vim-colors-solarized.git
 [submodule ".vim/bundle/delimitMate"]
 	path = .vim/bundle/delimitMate
 	url = git@github.com:Raimondi/delimitMate.git
