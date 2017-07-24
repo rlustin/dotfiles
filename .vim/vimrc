@@ -74,7 +74,7 @@ command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap \ :Ag<SPACE>
 
 " Search files
-map <c-p> :CtrlPMixed<CR>
+map <c-p> :FuzzyOpen<CR>
 
 " Persistent undo
 set undofile
