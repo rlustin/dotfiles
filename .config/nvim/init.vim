@@ -6,8 +6,11 @@ Plug 'ctrlpvim/ctrlp.vim'                                                       
 Plug 'elixir-lang/vim-elixir'
 Plug 'eugen0329/vim-esearch'                                                    " Provides project-wide async search and replace
 Plug 'iCyMind/NeoSolarized'                                                     " Solarized color theme
+Plug 'neomake/neomake'
+Plug 'Shougo/unite.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-airline/vim-airline'                                                  " Status line
+Plug 'vimlab/neojs'                                                             " Utilities for JavaScript
 
 " Initialize plugin system
 call plug#end()
@@ -18,6 +21,9 @@ filetype indent on                                                              
 filetype plugin on                                                              " Enable filetype-specific plugins
 
 let g:mapleader = ","                                                           "Change leader to a comma
+
+set backspace=indent,eol,start
+set clipboard=unnamed
 
 set title
 set number                                                                      " Show line numbers
@@ -30,6 +36,15 @@ set fileencoding=utf-8                                                          
 set wrap                                                                        " Enable word wrap
 set linebreak                                                                   " Wrap lines at convenient points
 set listchars=tab:▸\ ,trail:· list                                              " Add · for trailing spaces, ▸ for tabs
+set updatetime=250
+
+" Indentation
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
+set expandtab
+set smartindent
+set nofoldenable
 
 colorscheme NeoSolarized
 set background=dark

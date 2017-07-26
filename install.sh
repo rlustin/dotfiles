@@ -6,4 +6,5 @@ ln -f -s $(pwd)/.gitconfig ~/.gitconfig
 ln -f -s $(pwd)/.gitconfig-tbk ~/.gitconfig-tbk
 ln -f -s $(pwd)/.global_gitignore ~/.global_gitignore
 ln -f -s $(pwd)/.zshrc ~/.zshrc
+ln -f -s $(pwd)/.ssh/config ~/.ssh/config
 
