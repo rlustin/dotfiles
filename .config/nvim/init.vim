@@ -7,10 +7,12 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'eugen0329/vim-esearch'                                                    " Provides project-wide async search and replace
 Plug 'iCyMind/NeoSolarized'                                                     " Solarized color theme
 Plug 'neomake/neomake'
+Plug 'Raimondi/delimitMate'                                                     " Automatic closing of quotes, parenthesis, brackets, etc.
 Plug 'Shougo/unite.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }                   " Completion
 Plug 'slashmili/alchemist.vim'                                                  " Elixir completion, documentation and integrations
+Plug 'tpope/vim-endwise'                                                        " Automatic closing of do/end structures
 Plug 'vim-airline/vim-airline'                                                  " Status line
 Plug 'vimlab/neojs'                                                             " Utilities for JavaScript
 
@@ -55,6 +57,10 @@ let &colorcolumn="80,".join(range(120,999),",")                                 
 map <c-p> :CtrlPMixed<CR>                                                       " Search files
 
 let g:deoplete#enable_at_startup = 1
+
+let delimitMate_expand_cr = 1                                                   " Expand <CR> when inside an empty pair
+let delimitMate_expand_space = 1                                                " Expand <Space> when inside an empty pair
+
 let g:airline#extensions#tabline#enabled = 2
 let g:NERDSpaceDelims = 1                                                       " Add spaces after comment delimiters by default
 
