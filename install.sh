@@ -8,3 +8,4 @@ ln -f -s $(pwd)/.global_gitignore ~/.global_gitignore
 ln -f -s $(pwd)/.zshrc ~/.zshrc
 ln -f -s $(pwd)/.ssh/config ~/.ssh/config
 
+pip3 install neovim

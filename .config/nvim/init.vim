@@ -9,6 +9,8 @@ Plug 'iCyMind/NeoSolarized'                                                     
 Plug 'neomake/neomake'
 Plug 'Shougo/unite.vim'
 Plug 'scrooloose/nerdcommenter'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }                   " Completion
+Plug 'slashmili/alchemist.vim'                                                  " Elixir completion, documentation and integrations
 Plug 'vim-airline/vim-airline'                                                  " Status line
 Plug 'vimlab/neojs'                                                             " Utilities for JavaScript
 
@@ -52,6 +54,7 @@ let &colorcolumn="80,".join(range(120,999),",")                                 
 
 map <c-p> :CtrlPMixed<CR>                                                       " Search files
 
+let g:deoplete#enable_at_startup = 1
 let g:airline#extensions#tabline#enabled = 2
 let g:NERDSpaceDelims = 1                                                       " Add spaces after comment delimiters by default
 
