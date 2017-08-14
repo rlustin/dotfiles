@@ -12,7 +12,6 @@ Plug 'Shougo/unite.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }                   " Completion
 Plug 'slashmili/alchemist.vim'                                                  " Elixir completion, documentation and integrations
-Plug 'tpope/vim-endwise'                                                        " Automatic closing of do/end structures
 Plug 'vim-airline/vim-airline'                                                  " Status line
 Plug 'vimlab/neojs'                                                             " Utilities for JavaScript
 
