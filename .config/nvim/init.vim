@@ -8,6 +8,7 @@ Plug 'eugen0329/vim-esearch'                                                    
 Plug 'iCyMind/NeoSolarized'                                                     " Solarized color theme
 Plug 'neomake/neomake'
 Plug 'Raimondi/delimitMate'                                                     " Automatic closing of quotes, parenthesis, brackets, etc.
+Plug 'rust-lang/rust.vim'
 Plug 'Shougo/unite.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }                   " Completion
