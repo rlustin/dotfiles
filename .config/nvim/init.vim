@@ -5,6 +5,7 @@ Plug 'airblade/vim-gitgutter'                                                   
 Plug 'ctrlpvim/ctrlp.vim'                                                       " Path fuzzy
 Plug 'elixir-lang/vim-elixir'
 Plug 'eugen0329/vim-esearch'                                                    " Provides project-wide async search and replace
+Plug 'fleischie/vim-styled-components'
 Plug 'iCyMind/NeoSolarized'                                                     " Solarized color theme
 Plug 'neomake/neomake'
 Plug 'Raimondi/delimitMate'                                                     " Automatic closing of quotes, parenthesis, brackets, etc.
