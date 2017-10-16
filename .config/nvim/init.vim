@@ -65,6 +65,11 @@ let delimitMate_expand_space = 1                                                
 let g:airline#extensions#tabline#enabled = 2
 let g:NERDSpaceDelims = 1                                                       " Add spaces after comment delimiters by default
 
+" Use TAB in normal mode to fold/unfold
+set foldmethod=indent
+map <Tab> za
+au BufReadPost * normal zR
+
 " The Silver Searcher
 if executable('ag')
   let g:esearch = {'adapter': 'ag'}
