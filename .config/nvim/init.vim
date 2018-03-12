@@ -14,8 +14,12 @@ Plug 'Shougo/unite.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }                   " Completion
 Plug 'slashmili/alchemist.vim'                                                  " Elixir completion, documentation and integrations
-Plug 'vim-airline/vim-airline'                                                  " Status line
+Plug 'udalov/kotlin-vim'
+Plug 'vim-airline/vim-airline'                                                  " Status lin
 Plug 'vimlab/neojs'                                                             " Utilities for JavaScript
+Plug 'pangloss/vim-javascript'
+Plug 'hashivim/vim-terraform'
+Plug 'mxw/vim-jsx'
 
 " Initialize plugin system
 call plug#end()
@@ -51,6 +55,8 @@ set expandtab
 set smartindent
 set nofoldenable
 
+let g:terraform_align=1
+
 colorscheme NeoSolarized
 set background=dark
 let &colorcolumn="80,".join(range(120,999),",")                                 " Highlight column 80, 120 and onward
@@ -64,6 +70,8 @@ let delimitMate_expand_space = 1                                                
 
 let g:airline#extensions#tabline#enabled = 2
 let g:NERDSpaceDelims = 1                                                       " Add spaces after comment delimiters by default
+
+let g:jsx_ext_required = 0                                                      " JSX in .js files
 
 " Use TAB in normal mode to fold/unfold
 set foldmethod=indent
