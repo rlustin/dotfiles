@@ -12,7 +12,6 @@ Plug 'Raimondi/delimitMate'                                                     
 Plug 'rust-lang/rust.vim'
 Plug 'Shougo/unite.vim'
 Plug 'scrooloose/nerdcommenter'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }                   " Completion
 Plug 'slashmili/alchemist.vim'                                                  " Elixir completion, documentation and integrations
 Plug 'udalov/kotlin-vim'
 Plug 'vim-airline/vim-airline'                                                  " Status lin

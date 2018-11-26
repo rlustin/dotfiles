@@ -46,3 +46,10 @@ git-find() {
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export CT_GIT_ROOT=$HOME/git
+export PATH="$PATH:$HOME/.margobank/bin"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+. $HOME/.asdf/asdf.sh
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
