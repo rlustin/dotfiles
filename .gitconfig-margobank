@@ -1,3 +1,7 @@
+[commit]
+gpgsign = true
+
 [user]
-email = raphael.lustin@margo.com
+email = raphael.lustin@memo.bank
 name = Raphaël Lustin
+signingKey = 368FB27BF3135FE7

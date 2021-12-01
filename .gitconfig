@@ -48,5 +48,7 @@
   trackm = branch --set-upstream-to=upstream/master
 
 # Works with git 2.13
-[includeIf "gitdir:~/git/margobank/"]
-  path = .gitconfig-margobank
+[includeIf "gitdir:~/git/memobank/"]
+  path = .gitconfig-memobank
+[includeIf "gitdir:~/.memobank/"]
+  path = .gitconfig-memobank
